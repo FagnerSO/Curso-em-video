@@ -7,6 +7,8 @@ while continua != 'N':
 print(f'Voce digitou {len(numeros)} números, a media foi {sum(numeros) / len(numeros)}')
 print(f'O maior valor foi {max(numeros)} e o menor valor foi {min(numeros)}')
 print(numeros[1])
+
+
 #Solução Guanabara
 resp = 'S'
 soma = quant = media = maior = menor = 0
