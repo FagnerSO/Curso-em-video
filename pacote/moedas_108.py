@@ -18,5 +18,5 @@ def reducao(n, r):
     return n
 
 
-def moeda(preço=0, moeda='R$'):
-    return f'{moeda}{preço}'.replace('.', ',')
+def moeda(preco=0, moeda='R$'):
+    return f'{moeda}{preco:.2f}'.replace('.', ',')
